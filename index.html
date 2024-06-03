@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Daniel Grabinski</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/c9ae041a77.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- ------------- Header Section ------------- -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./images/logo4.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Designs">Designs</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>BSc (Hons) Computing Science Graduate</p>
+          <h1>
+              Hi, I'm <div class="zoom-hover">Daniel</div> Grabinski <br />From London, <br> United Kingdom
+          </h1>
+      </div>
+      </div>
+    </div>
+    <!-- ------------- About Me Section ------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/about.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p><br>  
+            I am an energetic and motivated computing science graduate with a background in software development and problem-solving. 
+            I am a proactive learner who embraces challenges and is keen to contribute to technology-driven environments. 
+            I am enthusiastic about working with innovative IT teams to further develop my skills. <br><br>
+
+            My academic foundation is robust, but I recognise the importance of continuous learning in the fast-changing tech industry. 
+            I have improved my skills through courses on platforms like Udemy, freeCodeCamp, and LinkedIn Learning. 
+            During my university studies, I acquired a wide range of skills, including programming languages, software engineering principles,
+             and project management. I am ready to start my first journey in a professional environment and receive training 
+             from experienced people.
+            </p>
+            <!-- Thin line separator -->
+            <div class="section-separator"></div>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces - Figma, DrawIO</li>
+                <li><span>Web Development</span><br />Web App Development - HTML / CSS , NodeJS, JavaScript</li>
+                <li>
+                  <span>App Development</span><br />Building Android/iOS Apps - React Native, TypeScript, Expo 
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2020 - Current</span><br />Shift Manager at JD Wetherspoon
+                </li>
+                <li><span>2018 - 2020</span><br />Shift Leader at JD Wetherspoon
+                </li>
+                <li><span>2016 -2018</span><br />Team Leader at JD Wetherspoon
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2019 - 2023</span><br />
+                  BSc Computing Science at Southampton Solent University
+                </li>
+                <li>
+                  <span>2010 - 2014</span><br />
+                  Technical Scientific Institutions - Technical School 
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------Services Section ------------- -->
+    <div id="Designs">
+      <div class="container">
+        <h1 class="sub-title">UI/UX Designs / Prototypes </h1>
+        <div class="services-list">
+          <div class="project project5">
+            <h2>Budget Web App</h2>
+            <p>
+              The application supports users in effectively managing and controlling their expenses. 
+              Users have the ability to classify their expenditures and view a breakdown of where their 
+              money is going based on categories. Interactive prototype made in "Figma"
+            </p>
+            
+            <a href="https://www.figma.com/proto/nWZhWcsems2eBEn11yy7KI/Budge-Control-App---Daniel?t=muQ4WO3KOhLgi7n7-1" class="project-link" target="_blank">
+                <img src="./images/11.jpg" alt="Project Image">
+                <div class="tooltip3"><p>Click to Try </p></div>
+            </a>
+          
+            
+          </div>
+          
+            <div class="project6">
+            <h2>Solent Alumni Page</h2>
+            <p>
+              The aim of this project was to develop an alternative version of the Solent Alumni page, 
+              enabling alumni to access features such as searching for partners and job opportunities, 
+              finding mentors to assist with entering the industry, and discovering benefits available to 
+              graduates after completing their studies.<br>
+            </p>
+            
+            <a href="https://www.figma.com/proto/i6FR3tLW9gFf1nhcRpIfkS/Solent-Alumni?node-id=1-2&t=GHmabaUzmGhCaDQH-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=139%3A1516" class="project-link" target="_blank">
+              
+                <img src="./images/Solent.jpg" alt="Project Image">
+                <div class="tooltip"><p>Click to Try </p></div>
+              
+            </a>
+          
+           
+          </div>
+          
+          <div class="project7">
+            
+            <h2>Steady Paycheck </h2>
+            <p>
+              The goal of this project was to design a website prototype for the employment agency Steady Paycheck(SP),
+              which acts as a link between potential employees and business organizations. Prototype has been created using "Figma" 
+              and includes multiple pages ( Find a job, Add a CV, Register etc.) , 
+              for Job seeker and Employers.<br>
+            </p>
+            
+            <a href="https://www.figma.com/proto/P1lfoMkwaZFciE88R5IHZZ/Steady-Paycheck?node-id=8-4555&t=qH9f3nFcNn4R1xJQ-1&scaling=min-zoom&page-id=2%3A9" class="project-link" target="_blank">
+              
+                <img src="./images/Steady.jpg" alt="Project Image">
+                <div class="tooltip1"><p>Click to Try </p></div>
+              
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- -------------Portfolio Section ------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio Projects</h1>
+            <div class="portfolio-list">
+                <div class="project project1">
+                    <img src="./images/finance.jpg" alt="Project_1">
+                    <div class="layer">
+                        <h3>Manage Your Finance </h3>
+                        <p> the "Manage Your Finance" mobile application developed using React Native, TypeScript, Expo and Firebase. 
+                          The app is designed to to maximise savings and enhance financial health with features like financial education, 
+                          gamification, and much more.
+                        </p><br><p class="ecom">
+                          • Visual Studio<br>
+                          • Android Studio<br>
+                          • Node.js and Yarn<br>
+                          • Expo CLI<br>
+                        </p>
+                        <div class="github-link"> 
+                          <a href="https://github.com/d-grab/Mange-Your-Finance"> <img src="./images/git.jpg" alt="Github Logo"> </a> </div><h5 class="gittext">Github </h5>
+                    </div>
+                </div>
+                <div class="project project2">
+                  <img src="./images/template.jpg" alt="Project_2">
+                    <div class="layer">
+                    
+
+                        <h3>Budget Web App</h3>
+                        <p>The app helps people manage their money. Users can sort their spending and see where 
+                          their money goes by category. The tools used include React, Firebase, Node.js, HTML, CSS, Bootstrap, React-Toastify, and Chart.js.
+                           <a href="https://budget-control-85f93.web.app" class="special-link">Link to deployed Application</a></p>
+                          <div class="github-link"> 
+                            <a href="https://github.com/d-grab/Budget-Control-App"> <img src="./images/git.jpg" alt="Github Logo"> </a> </div><h5 class="gittext">Github </h5>
+                    </div>
+                </div>
+                <div class="project project3">
+                    <img src="./images/shop.jpg" alt="Project_3">
+                    <div class="layer">
+                        <h3> E-commerce Web App Full-Stack</h3>
+                        <p >The project goal was to provide a full-stack application with a CRUD functionality system where customers can buy an audiobooks/books 
+                          Various different tools has been used while creating the project</p>  <br><p class="ecom">
+                          • Database: MongoDB (Atlas) <br>
+                          • Backend: ECMAScript Node JS, Express<br>
+                          • Frontend : React, Redux<br>
+                          • IDE: VS Code, Postman, MongoDB Compass<br>
+                        </p>
+                        <div class="github-link"> 
+                          <a href="https://github.com/d-grab/AssigmentDATA"> <img src="./images/git.jpg" alt="Github Logo"> </a> </div><h5 class="gittext">Github </h5>
+                    </div>
+                </div>
+                <div class="project project4">
+                  <img src="./images/eze.jpg" alt="Project_4">
+                  <div class="layer">
+                      <h3> EzePost Web Application </h3>
+                      <p >Web Application in Laravel, which allows users to effortlessly send, receive, and view files on the platform. 
+                        The project, completed for Group 3 Technology Limited, left the client highly impressed and pleased with the final product.</p>  <br><p class="ecom">
+                        Tools used: <br>
+                        •PHP with Laravel framework<br>
+                        •Stripe<br>
+                        •MySQL <br>
+                        
+                      </p>
+                      <div class="github-link"> 
+                        <a href="https://github.com/d-grab/ezepost-laravel"> <img src="./images/git.jpg" alt="Github Logo"> </a> </div><h5 class="gittext">Github </h5>
+                  </div>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- -------------Contact Section ------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> danielgrabinski@yahoo.com</p>
+                        <div class="social-icons">
+                        <a href="https://www.facebook.com/daniel.grabinski.10"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/daniel-grabinski/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/d-grab"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="./images/Daniel Grabinski Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <span id="msg"></span><br>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- -------------Copyright Section ------------- -->
+        <div class="copyright">
+          <p>Copyright © DG. Made by Daniel Grabinski</p>
+        </div>
+    </div>
+
+    <script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbx-ewCbvx9PtEiWKw05_Y_SzzagNGK8UVjNireSaaiGJU7QJx6tQI4aYAlN7Y5OaiJBPw/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully to Daniel!"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
